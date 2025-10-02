@@ -11,22 +11,70 @@
     <header>
         <h1>Toy Store</h1>
         <nav>
-            <a href="#inicio">Início</a>
-            <a href="#catalogo">Catálogo</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
+            <ul>
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+                <li>
+                    <a href="#catalogo">Catálogo</a>
+                </li>
+                <li>
+                    <a>Sobre</a>
+                </li>
+                <li>
+                    <a>Contato</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
         <section id="inicio">
-            <img src="img/image1.jfif" alt="produtos" width="90%" height="90%">
+            <h2>Início  da página</h2>
+            <img src="img/image1.jfif" alt="banner" class="prod" width="90%">
+            <figure>
+                <img src="img/image2.jfif" alt="prod1" class="figs" width="150" height="100">
+                <figcaption>texto</figcaption>
+            </figure>
+            <figure>
+                <img src="img/image3.jfif" alt="prod2" class="figs" width="150" height="100">
+                <figcaption>hello</figcaption>
+            </figure>
+            <a href="#inicio">Voltar ao início</a>
         </section>
         <section id="catalogo">
-            Sessão 2
+            <h2>Catálogo de produtos</h2>
+            <div class="container">
+                <figure>
+                    <img src="img/card1.jfif" alt="card1" width="150" height="100">
+                    <figcaption>R$ 300,00</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/card2.jfif" alt="card2" width="150" height="100">
+                    <figcaption>R$ 0,99</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/card3.jfif" alt="card3" width="150" height="100">
+                    <figcaption>R$ 8.000,00</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/card4.jfif" alt="card4" width="150" height="100">
+                    <figcaption>R$ 40,00</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/card5.jfif" alt="card5" width="150" height="100">
+                    <figcaption>R$ 199,99</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/card6.jfif" alt="card6" width="150" height="100">
+                    <figcaption>R$ <s>149,99</s> 149,98</figcaption>
+                </figure>
+            </div>
+            <a href="#inicio">Voltar ao início</a>
         </section>
     </main>
     <footer>
-        Footer
+        <b>Endereço:</b> Rua: Engenheiro Alfredo Huch, 475 | Bairro: Centro | CEP: 96201-460<br>
+        Vínculo ao IFRS <i>Campus</i> Rio Grande
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
